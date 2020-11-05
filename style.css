@@ -1,0 +1,126 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+}
+.nvg
+{
+	background-color: #003CB8;
+	display: flex;
+	justify-content: center;
+}
+.nvg a
+{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 14px 28px;
+}
+.nvg a:hover
+{
+	background-color: white;
+	color: black;
+}
+.content p
+{
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+}
+#toggle
+{
+	display: none;
+}
+.togglearea
+{
+	background-color: #d470c6;
+	border-bottom: 2px solid white;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.togglearea label
+{
+	background-color: white;
+	height: 45px;
+	width: 50px;
+	color: black;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.togglearea label span
+{
+	background-color: black;
+	height: 4px;
+	width: 70%;
+	margin: 2px 0px;
+}
+.togglearea
+{
+	display: none;
+}
+body { text-align: center;}
+body {background-color: #E5E1CF;}
+h1{
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 60px;
+	color: #183CB8;
+}
+h2,h3, h4{ padding-top: 50px;}
+
+form{
+     padding: 0px 30px 0px;
+}
+.contact{
+	background-color: #E5E1CF;
+}
+
+img {
+  height: 370px;
+  width: 260px;
+}
+
+img {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: left;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.kontakt {
+    color: black;
+}
+td, th { 
+    border: 1px solid black;}
+    ul,dl, ol{
+        list-style-type: none;
+    }
+input[type=send] {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hove
